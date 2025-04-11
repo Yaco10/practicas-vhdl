@@ -12,6 +12,6 @@ architecture comp of mux2to1 is
                 x <= a;
             else 
                 x <= b;
-            end if; 
+            end if 
         end process;
 end comp;
