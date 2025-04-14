@@ -2,16 +2,16 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_signed.all; 
 
-entity p1alu is
+entity p1a is
     port (
         a, b    : in std_logic_vector(31 downto 0);
         control : in std_logic_vector(2 downto 0);
         zero    : out std_logic;
         result  : out std_logic_vector(31 downto 0)
     );
-end p1alu;
+end p1a;
 
-architecture practica of p1alu is
+architecture practica of p1a is
     signal result_internal : std_logic_vector(31 downto 0);
 begin
     prAlu: process(a, b, control)

@@ -1,10 +1,10 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity p1alu_tb is
-end p1alu_tb;
+entity p1a_tb is
+end p1a_tb;
 
-architecture behavior of p1alu_tb is
+architecture behavior of p1a_tb is
 
     signal a, b      : std_logic_vector(31 downto 0);
     signal control   : std_logic_vector(2 downto 0);
