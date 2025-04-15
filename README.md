@@ -14,7 +14,7 @@ Las prácticas están organizadas en carpetas numeradas (`Trabajo0`, `Trabajo1`,
 ## 🛠️ Herramientas utilizadas
 
 - **Lenguaje:** VHDL
-- **Simulador:** ModelSim
+- **Simulador:** EDAPlayground
 - **Plataforma de desarrollo:** Xilinx Vivado (opcional, según la práctica)
 
 ## 📁 Estructura del repositorio
@@ -30,3 +30,6 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ## 👨‍🏫 Créditos
 
 Desarrollado como parte de las actividades académicas de la materia **Arquitectura de Procesadores 
+
+## 🦾 Autor
+Yaco Recroa
